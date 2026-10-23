@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Basmala Mohamed" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Muvana</title>
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/plugins/headAnimations.css" />
+    <link rel="stylesheet" href="css/animationPlugins.css" />
+    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/plugins/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.responsive.css" />
+    <link id="favicon" rel="icon" href="./images/LOGO.png" />
+
+    <!--Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="js/plugins/headAnimations.js" defer></script>
+    <script src="./js/plugins/owl.carousel.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js " defer></script>
+    <script src="js/wow.js" defer></script>
+    <script src="js/sweetAlert" defer></script>
+    <script src="js/functions.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <script src="js/notes.js" defer></script>
+  </head>
+
+  <body id="main-page">
+    <!--navBar-->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#home">
+          <img src="./images/LOGO.png" class="img-fluid" />
+        </a>
+
+        <!--search-->
+        <form class="navbar-search" role="search">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <input type="search" placeholder="Find a movie..." aria-label="Search movies" />
+        </form>
+
+        <!-- links -->
+        <ul class="navbar-links">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#top">Top Rated</a></li>
+          <li><a class="nav-link" href="#trending">Trending</a></li>
+          <li><a class="nav-link" href="#popular">Popular</a></li>
+          <li><a class="nav-link" href="#movies">Movies</a></li>
+          <li><a class="nav-link" href="#about">About Us</a></li>
+          <li><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+
+        <!-- Actions -->
+        <div class="navbar-actions">
+          <!--fav-->
+          <a class="nav-icon" href="#favorites">
+            <i class="fa-solid fa-heart fav"></i>
+          </a>
+
+          <!--themes-->
+          <button class="nav-icon">
+            <i class="fa-solid fa-moon moon"></i>
+          </button>
+
+          <!--watch list-->
+          <button class="nav-icon">
+            <i class="fa-solid fa-bookmark"></i>
+          </button>
+
+          <!--login-->
+          <button class="nav-icon">
+            <a class="login text-decoration-none text-light" href="./login.html">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!--HOME-->
+    <section id="home" class="position-relative">
+      <div class="home-content wow animate__animated animate__backInLeft">
+        <span class="welcome">YOUR NEXT FAVORITE STORY STARTS HERE</span>
+        <h1>
+          Unlimited <span>movies,</span><br />
+          Stories, and more.
+        </h1>
+        <p>Discover your next favorite film, explore new worlds, and build a watchlist made just for you.</p>
+        <div class="home-actions">
+          <a href="#movies" class="btn-explore"> Explore movies <img src="./images/film.gif" alt="" /> </a>
+          <a href="#trending" class="btn-trending"> <i class="fa-solid fa-play"></i> See what’s trending </a>
+        </div>
+        <div class="home-note">
+          <i class="fa-solid fa-star"></i>
+          Find your next movie-night favorite
+        </div>
+      </div>
+      <div class="home-films">
+        <div class="film-track">
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(1).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(2).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(3).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(4).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(5).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(6).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(7).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(8).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(9).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(10).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(11).webp" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(12).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(13).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(14).jfif" alt="" /></div>
+          </div>
+          <!--repeat image-->
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(1).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(2).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(3).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(4).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(5).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(6).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(7).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(8).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(9).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(10).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(11).webp" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(12).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(13).jfif" alt="" /></div>
+          </div>
+          <div class="box wow animate__animated animate__backInLeft" data-wow-delay="0.2s" data-wow-duration="4s">
+            <div class="item"><img src="./images/home-films/images(14).jfif" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--TRENDING-->
+    <section id="top">
+      <div class="title">
+        <h2>DISCOVER MORE</h2>
+        <h1>Top Rated</h1>
+        <h3>Stories that keep the magic alive.</h3>
+      </div>
+
+      <div class="mainPhoto">
+        <div class="content">
+          <div class="head">
+            <div class="views">
+              <i class="fa-solid fa-eye"></i>
+              <p>2.9M views</p>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p>9.2 (rating)</p>
+            </div>
+          </div>
+          <div class="body">
+            <p class="name wow animate__animated animate__bounceIn">Dune: Part Two</p>
+            <span class="wow animate__animated animate__bounceIn" data-wow-delay=".2s">2024 · 2h 46m</span>
+            <p class="describtion wow animate__animated animate__bounceIn" data-wow-delay=".5s">Paul Atreides joins forces with Chani and the Fremen to seek revenge against those who destroyed his family.</p>
+            <p class="genre wow animate__animated animate__bounceIn" data-wow-delay=".8s">Adventure, Action, Drama</p>
+          </div>
+          <div class="footer d-flex flex-row column-gap-3">
+            <button class="d-flex flex-row align-items-center column-gap-3 wow animate__animated animate__zoomIn">
+              <p class="m-0">Add to WatchList</p>
+              <i class="fa-solid fa-bookmark"></i>
+            </button>
+            <button class="favorite wow animate__animated animate__zoomIn">
+              <i class="fa-regular fa-heart"></i>
+              <span>Add to Favorites</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="body">
+          <div class="row"></div>
+          <div class="indicators wow animate__animated animate__zoomIn">
+            <div class="left">
+              <i class="fa-regular fa-hand-point-left"></i>
+            </div>
+            <div class="right">
+              <i class="fa-regular fa-hand-point-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--popup of filmsInfo-->
+    <div class="popup" id="filmsInfo" data-popup-name="info">
+      <div class="popup-box">
+        <img class="popup-background" src="" alt="" />
+        <div class="popup-layer"></div>
+
+        <div class="popup-head">
+          <a href="#home" class="popup-brand">MUVANA<span>.</span></a>
+
+          <div class="popup-s">
+            <span class="popup-hint">
+              <i class="fa-solid fa-film"></i>
+              CINEMATIC EXPERIENCE
+            </span>
+            <button class="close-popup">
+              <i class="fa-solid fa-chevron-left close" onclick="closPopup()"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popup-content">
+          <div class="popup-film">
+            <div class="popup-film-frame">
+              <img class="popup-filmImage" src="" />
+              <span class="film-label">NOW SHOWING</span>
+            </div>
+
+            <div class="film-rating">
+              <i class="fa-solid fa-star"></i>
+              <span class="popup-rate"></span>
+              <span class="rating-max">/ 10</span>
+            </div>
+
+            <div class="film-caption">
+              <i class="fa-solid fa-clapperboard"></i>
+              Muvana films
+            </div>
+          </div>
+
+          <div class="movie-details">
+            <span class="popup-first"> MUVANA ORIGINAL EXPERIENCE </span>
+
+            <h1 class="popup-title"></h1>
+
+            <div class="popup-informations">
+              <span class="info-item">
+                <i class="fa-regular fa-calendar"></i>
+                <span class="popup-date"></span>
+              </span>
+
+              <span class="info-point"></span>
+
+              <span class="info-item">
+                <i class="fa-regular fa-clock"></i>
+                <span class="popup-runtime"></span>
+              </span>
+
+              <span class="info-point"></span>
+
+              <span class="popup-adult"></span>
+            </div>
+
+            <div class="popup-genres">
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="describtion">
+              <i class="fa-solid fa-align-left"></i>
+              <h2></h2>
+            </div>
+
+            <p class="popup-description"></p>
+
+            <div class="popup-actions">
+              <a class="popup-trailer" href="#">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <button class="popup-favorite">
+                <i class="fa-regular fa-heart"></i>
+                <span>Add to Favorites</span>
+              </button>
+
+              <button class="popup-watchlist">
+                <i class="fa-solid fa-bookmark"></i>
+                <span>Watch Later</span>
+              </button>
+            </div>
+
+            <div class="popup-stats">
+              <div class="stat-item">
+                <i class="fa-solid fa-star"></i>
+                <div>
+                  <span class="popup-stat-rate"></span>
+                  <span>IMDb-style score</span>
+                </div>
+              </div>
+
+              <div class="stat-item">
+                <i class="fa-solid fa-film"></i>
+                <div>
+                  <span class="popup-stat-genre"></span>
+                  <span>Genre</span>
+                </div>
+              </div>
+
+              <div class="stat-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <span class="popup-stat-runtime"></span>
+                  <span>Runtime</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popup-lower">
+          <div class="overviewing">
+            <button>
+              <i class="fa-solid fa-film"></i>
+              Overview
+            </button>
+
+            <div class="section-overview-head">
+              <div>
+                <span class="section-info">BEHIND THE STORY</span>
+                <h2>Discover the story</h2>
+              </div>
+
+              <i class="fa-solid fa-book-open section-icon"></i>
+            </div>
+
+            <div class="film-note">
+              <i class="fa-solid fa-quote-left"></i>
+              <p></p>
+              <span>THE MUVANA EXPERIENCE</span>
+            </div>
+          </div>
+
+          <footer class="popup-bottom">
+            <span><i class="fa-solid fa-clapperboard"></i> MUVANA</span>
+            <span>YOUR NEXT FAVORITE STORY STARTS HERE</span>
+            <button class="back-to-top"><a href="#home" class="text-decoration-none" onclick="closPopup()">Back to home</a> <i class="fa-solid fa-arrow-up"></i></button>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!--iframe popup-->
+    <div class="popup" id="watchPopup">
+      <div class="video-box">
+        <button type="button" id="closeVideo">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </button>
+
+        <iframe id="movieTrailer" src=""> </iframe>
+      </div>
+    </div>
+
+    <!--trending-->
+    <section id="trending" class="py-5">
+      <div class="container">
+        <div class="title">
+          <span>trending </span>
+          <p>Trending This Week</p>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade movie-carousel">
+          <div class="carousel-indicators"></div>
+
+          <div class="carousel-inner"></div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" aria-label="Previous">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next" aria-label="Next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--popular-->
+    <section id="popular" class="py-5">
+      <div class="container">
+        <div class="head d-flex flex-row justify-content-between align-items-center">
+          <div class="title">
+            <p class="m">THE CROWD FAVORITES</p>
+            <h2 class="h1">Popular <span>Movies</span></h2>
+            <p class="hint">Discover the stories everyone is talking about</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content overflow-hidden mx-4">
+        <div class="body">
+          <div class="row basmala"></div>
+          <div class="arrows">
+            <i class="fa-solid fa-chevron-left left" id="prevPopular"></i>
+            <i class="fa-solid fa-chevron-right right" id="nextPopular"></i>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="row">
+            <div class="col-lg-6 part1">
+              <div class="item d-flex flex-row column-gap-3 align-items-center">
+                <img src="./images/film.gif" alt="" class="img-fluid" />
+                <p class="mb-0">YOUR NEXT FAVORITE STORY</p>
+              </div>
+            </div>
+            <div class="col-lg-6 part2">
+              <div class="item">
+                <span class="line"></span>
+                <p class="mb-0">HANDPICKED FOR YOUR NEXT MOVIE NIGHT</p>
+                <i class="fa-solid fa-film"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--movies-->
+    <section id="movies">
+      <div class="container">
+        <div class="title">
+          <h2>Movies</h2>
+          <p>Explore Movies</p>
+          <span>Find your next favorite story.</span>
+        </div>
+
+        <div class="body">
+          <!-- Categories -->
+          <div class="choosing-category">
+            <div class="row g-3">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item active">
+                  <p>All Movies</p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item">
+                  <p>Drama</p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item">
+                  <p>Cartoon</p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item">
+                  <p>Action</p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item">
+                  <p>Comedy</p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="item">
+                  <p>Adventure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- All Movies -->
+          <div class="movies">
+            <div class="movies-header">
+              <div class="text">
+                <p class="discover">Discover All Movies</p>
+                <span>Explore your next favorite film</span>
+              </div>
+
+              <div class="sort">
+                <i class="fa-solid fa-arrow-down-wide-short"></i>
+                <span>Highest Rated</span>
+              </div>
+            </div>
+
+            <div class="row g-4">
+              <!-- Movie 1 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/Hugo.jfif" alt="Hugo movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 7.5 </span>
+
+                    <button class="favorite-btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Adventure</span>
+                      <h3>Hugo</h3>
+                      <p>A young boy uncovers a mystery inside a Paris railway station.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Hugo</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2011</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie 2 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/bugs-bunny.jfif" alt="Inception movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 8.8 </span>
+
+                    <button class="favorite-btn" aria-label="Add Inception to favorites">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Action</span>
+                      <h3>Inception</h3>
+                      <p>A skilled thief enters dreams to steal secrets and attempt the impossible.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Inception</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2010</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie 3 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/Extra-Terrestrial.jfif" alt="Interstellar movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 8.7 </span>
+
+                    <button class="favorite-btn" aria-label="Add Interstellar to favorites">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Sci-Fi</span>
+                      <h3>Interstellar</h3>
+                      <p>A team of explorers travels beyond Earth in search of a future for humanity.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2014</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie 4 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/FordvFerrari.jfif" alt="Spider-Man Into the Spider-Verse movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 8.4 </span>
+
+                    <button class="favorite-btn" aria-label="Add Spider-Verse to favorites">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Animation</span>
+                      <h3>Spider-Verse</h3>
+                      <p>Miles Morales discovers a universe filled with extraordinary Spider heroes.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Spider-Verse</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2018</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie 5 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/Liar-Liar.jfif" alt="Big Hero 6 movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 7.8 </span>
+
+                    <button class="favorite-btn" aria-label="Add Big Hero 6 to favorites">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Animation</span>
+                      <h3>Big Hero 6</h3>
+                      <p>A young inventor and his caring robot team up to protect their city.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Big Hero 6</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2014</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Movie 6 -->
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="item">
+                  <div class="movie-cart">
+                    <img src="./images/all-movies/Moneyball.jfif" alt="Jumanji Welcome to the Jungle movie poster" class="img-fluid" />
+
+                    <span class="movie-rating"> <i class="fa-solid fa-star"></i> 6.9 </span>
+
+                    <button class="favorite-btn" aria-label="Add Jumanji to favorites">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <div class="movie-layer">
+                      <span class="movie-genre">Adventure</span>
+                      <h3>Jumanji</h3>
+                      <p>Four teenagers enter a mysterious game and must work together to escape.</p>
+                      <button class="details-btn">
+                        <i class="fa-solid fa-circle-info"></i>
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="movie-info">
+                    <h3>Jumanji</h3>
+                    <span> <i class="fa-regular fa-calendar-days"></i> MAY 2017</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
